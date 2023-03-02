@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "types": ["@vuepress/client/types"],
+    "importsNotUsedAsValues": "error",
+    "moduleResolution": "nodenext",
+    "preserveValueImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "module": "esnext",
+    "target": "es2020",
+    "outDir": "./dist",
+    "jsx": "preserve",
+    "rootDir": "./",
+    "noEmit": false,
+    "allowJs": true,
+    "strict": true,
+    "baseUrl": "."
+  },
+  "include": ["./**/*"],
+  "exclude": ["./dist"]
+}
