@@ -2,9 +2,8 @@
   "compilerOptions": {
     "forceConsistentCasingInFileNames": true,
     "types": ["@vuepress/client/types"],
-    "importsNotUsedAsValues": "error",
     "moduleResolution": "nodenext",
-    "preserveValueImports": true,
+    "verbatimModuleSyntax": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "esModuleInterop": true,
