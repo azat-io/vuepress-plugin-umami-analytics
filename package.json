@@ -14,7 +14,7 @@
   "author": "Azat S. <to@azat.io>",
   "license": "MIT",
   "engines": {
-    "node": "^14.0.0 || ^16.0.0 || >=18.0.0"
+    "node": "^16.0.0 || >=18.0.0"
   },
   "scripts": {
     "start": "tsc -b --watch",
