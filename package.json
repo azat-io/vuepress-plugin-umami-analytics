@@ -44,17 +44,10 @@
     "@vuepress/utils": "2.0.0-beta.61"
   },
   "devDependencies": {
-    "@logux/eslint-config": "^49.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.58.0",
-    "@typescript-eslint/parser": "^5.58.0",
+    "@azat-io/eslint-config-typescript": "^0.6.1",
     "bumpp": "^9.1.0",
     "clean-publish": "^4.2.0",
     "eslint": "^8.38.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-n": "^15.7.0",
-    "eslint-plugin-prefer-let": "^3.0.1",
-    "eslint-plugin-promise": "^6.1.1",
     "rimraf": "5.0.0",
     "standard-version": "^9.5.0",
     "typescript": "^5.0.4"

@@ -4,7 +4,7 @@ declare let __UMAMI_ANALYTICS_ID__: string
 declare let __UMAMI_ANALYTICS_SRC__: string
 
 export default defineClientConfig({
-  enhance() {
+  enhance: () => {
     if (__VUEPRESS_SSR__) {
       return
     }
