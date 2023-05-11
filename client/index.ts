@@ -8,6 +8,7 @@ export default defineClientConfig({
     if (__VUEPRESS_SSR__) {
       return
     }
+
     let scriptTag = document.createElement('script')
     scriptTag.async = true
     scriptTag.src = __UMAMI_ANALYTICS_SRC__
