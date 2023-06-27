@@ -26,9 +26,9 @@
     "release:check": "pnpm test && pnpm build",
     "release:publish": "clean-publish",
     "release:version": "bumpp package.json --execute=\"pnpm release:changelog && git add changelog.md\" --commit \"build: publish v%s\" --tag --all",
-    "lint": "eslint .",
+    "test:js": "eslint .",
     "test:types": "tsc --noEmit --pretty",
-    "test": "pnpm run test:types && pnpm run lint"
+    "test": "pnpm run /^test:/"
   },
   "files": [
     "dist"
@@ -44,12 +44,23 @@
     "@vuepress/utils": "2.0.0-beta.62"
   },
   "devDependencies": {
-    "@azat-io/eslint-config-typescript": "^0.8.0",
-    "bumpp": "^9.1.0",
+    "@azat-io/eslint-config-typescript": "^1.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "bumpp": "^9.1.1",
     "clean-publish": "^4.2.0",
-    "eslint": "^8.40.0",
-    "rimraf": "5.0.0",
+    "eslint": "^8.43.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-perfectionist": "^1.4.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-prefer-let": "^3.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-sonarjs": "^0.19.0",
+    "eslint-plugin-unicorn": "^47.0.0",
+    "eslint-plugin-vitest": "^0.2.6",
+    "rimraf": "5.0.1",
     "standard-version": "^9.5.0",
-    "typescript": "^5.0.4"
+    "typescript": "^5.1.3"
   }
 }
