@@ -39,9 +39,9 @@
   },
   "types": "./dist/index.d.ts",
   "dependencies": {
-    "@vuepress/client": "2.0.0-beta.62",
-    "@vuepress/core": "2.0.0-beta.62",
-    "@vuepress/utils": "2.0.0-beta.62"
+    "@vuepress/client": "2.0.0-beta.63",
+    "@vuepress/core": "2.0.0-beta.63",
+    "@vuepress/utils": "2.0.0-beta.63"
   },
   "devDependencies": {
     "@azat-io/eslint-config-typescript": "^1.1.1",
@@ -49,7 +49,7 @@
     "@typescript-eslint/parser": "^5.60.1",
     "bumpp": "^9.1.1",
     "clean-publish": "^4.2.0",
-    "eslint": "^8.43.0",
+    "eslint": "^8.44.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^16.0.1",
     "eslint-plugin-perfectionist": "^1.4.0",
@@ -61,6 +61,6 @@
     "eslint-plugin-vitest": "^0.2.6",
     "rimraf": "5.0.1",
     "standard-version": "^9.5.0",
-    "typescript": "^5.1.3"
+    "typescript": "^5.1.6"
   }
 }
