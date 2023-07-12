@@ -39,14 +39,14 @@
   },
   "types": "./dist/index.d.ts",
   "dependencies": {
-    "@vuepress/client": "2.0.0-beta.63",
-    "@vuepress/core": "2.0.0-beta.63",
-    "@vuepress/utils": "2.0.0-beta.63"
+    "@vuepress/client": "2.0.0-beta.66",
+    "@vuepress/core": "2.0.0-beta.66",
+    "@vuepress/utils": "2.0.0-beta.66"
   },
   "devDependencies": {
     "@azat-io/eslint-config-typescript": "^1.1.1",
-    "@typescript-eslint/eslint-plugin": "^5.60.1",
-    "@typescript-eslint/parser": "^5.60.1",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
     "bumpp": "^9.1.1",
     "clean-publish": "^4.2.0",
     "eslint": "^8.44.0",
