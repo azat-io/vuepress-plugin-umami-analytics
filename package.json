@@ -44,23 +44,23 @@
     "@vuepress/utils": "2.0.0-beta.67"
   },
   "devDependencies": {
-    "@azat-io/eslint-config-typescript": "^1.1.1",
-    "@typescript-eslint/eslint-plugin": "^6.3.0",
-    "@typescript-eslint/parser": "^6.3.0",
-    "bumpp": "^9.1.1",
+    "@azat-io/eslint-config-typescript": "^1.2.1",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "bumpp": "^9.2.0",
     "clean-publish": "^4.2.0",
-    "eslint": "^8.47.0",
-    "eslint-plugin-import": "^2.28.0",
-    "eslint-plugin-n": "^16.0.1",
+    "eslint": "^8.48.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^16.0.2",
     "eslint-plugin-perfectionist": "^1.5.1",
     "eslint-plugin-prefer-arrow": "^1.2.3",
     "eslint-plugin-prefer-let": "^3.0.1",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-sonarjs": "^0.20.0",
+    "eslint-plugin-sonarjs": "^0.21.0",
     "eslint-plugin-unicorn": "^48.0.1",
     "eslint-plugin-vitest": "^0.2.8",
     "rimraf": "5.0.1",
     "standard-version": "^9.5.0",
-    "typescript": "^5.1.6"
+    "typescript": "^5.2.2"
   }
 }
