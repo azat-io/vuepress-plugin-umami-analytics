@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   '@vuepress/client':
-    specifier: 2.0.0-beta.68
-    version: 2.0.0-beta.68(typescript@5.2.2)
+    specifier: 2.0.0-rc.0
+    version: 2.0.0-rc.0(typescript@5.2.2)
   '@vuepress/core':
-    specifier: 2.0.0-beta.68
-    version: 2.0.0-beta.68(typescript@5.2.2)
+    specifier: 2.0.0-rc.0
+    version: 2.0.0-rc.0(typescript@5.2.2)
   '@vuepress/utils':
-    specifier: 2.0.0-beta.68
-    version: 2.0.0-beta.68
+    specifier: 2.0.0-rc.0
+    version: 2.0.0-rc.0
 
 devDependencies:
   '@azat-io/eslint-config-typescript':
@@ -649,11 +649,11 @@ packages:
     resolution: {integrity: sha512-8PGwybFwM4x8pcfgqEQFy70NaQxASvOC5DJwLQfpArw1UDfUXrJkdxD3BhVTMS+0Lef/TU7YO0Jvr0jJY8T+mw==}
     dev: false
 
-  /@vuepress/client@2.0.0-beta.68(typescript@5.2.2):
-    resolution: {integrity: sha512-Y6amMnkPxpmn51vcgy5yzm3gpIaqZo4Pa8ItPFd7MW6GQy6HVZRNaV9ufzWRPOAedLHgpT4aVXomidvTMEKHVw==}
+  /@vuepress/client@2.0.0-rc.0(typescript@5.2.2):
+    resolution: {integrity: sha512-TwQx8hJgYONYxX+QltZ2aw9O5Ym6SKelfiUduuIRb555B1gece/jSVap3H/ZwyBhpgJMtG4+/Mrmf8nlDSHjvw==}
     dependencies:
       '@vue/devtools-api': 6.5.1
-      '@vuepress/shared': 2.0.0-beta.68
+      '@vuepress/shared': 2.0.0-rc.0
       '@vueuse/core': 10.6.1(vue@3.3.8)
       vue: 3.3.8(typescript@5.2.2)
       vue-router: 4.2.5(vue@3.3.8)
@@ -662,13 +662,13 @@ packages:
       - typescript
     dev: false
 
-  /@vuepress/core@2.0.0-beta.68(typescript@5.2.2):
-    resolution: {integrity: sha512-/c+3gdduDyiyeGARzui6Z5ZeZurRGcbVSmqcUfb8SjB7sHojDt+bq/7gYeXKXrJ4R0zPpmqshlZdNGOSY4+uGQ==}
+  /@vuepress/core@2.0.0-rc.0(typescript@5.2.2):
+    resolution: {integrity: sha512-uoOaZP1MdxZYJIAJcRcmYKKeCIVnxZeOuLMOOB9CPuAKSalT1RvJ1lztw6RX3q9SPnlqtSZPQXDncPAZivw4pA==}
     dependencies:
-      '@vuepress/client': 2.0.0-beta.68(typescript@5.2.2)
-      '@vuepress/markdown': 2.0.0-beta.68
-      '@vuepress/shared': 2.0.0-beta.68
-      '@vuepress/utils': 2.0.0-beta.68
+      '@vuepress/client': 2.0.0-rc.0(typescript@5.2.2)
+      '@vuepress/markdown': 2.0.0-rc.0
+      '@vuepress/shared': 2.0.0-rc.0
+      '@vuepress/utils': 2.0.0-rc.0
       vue: 3.3.8(typescript@5.2.2)
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -676,8 +676,8 @@ packages:
       - typescript
     dev: false
 
-  /@vuepress/markdown@2.0.0-beta.68:
-    resolution: {integrity: sha512-wQOVw1QQSnkdKClTnv3dHw1A7Y+XF2eu2hJmhTf9XOnEMxQ9taacIq5iRuQdcfR+Y8rjWmrzrqWZL+MiJbxKMQ==}
+  /@vuepress/markdown@2.0.0-rc.0:
+    resolution: {integrity: sha512-USmqdKKMT6ZFHYRztTjKUlO8qgGfnEygMAAq4AzC/uYXiEfrbMBLAWJhteyGS56P3rGLj0OPAhksE681bX/wOg==}
     dependencies:
       '@mdit-vue/plugin-component': 1.0.0
       '@mdit-vue/plugin-frontmatter': 1.0.0
@@ -689,8 +689,8 @@ packages:
       '@mdit-vue/types': 1.0.0
       '@types/markdown-it': 13.0.6
       '@types/markdown-it-emoji': 2.0.4
-      '@vuepress/shared': 2.0.0-beta.68
-      '@vuepress/utils': 2.0.0-beta.68
+      '@vuepress/shared': 2.0.0-rc.0
+      '@vuepress/utils': 2.0.0-rc.0
       markdown-it: 13.0.2
       markdown-it-anchor: 8.6.7(@types/markdown-it@13.0.6)(markdown-it@13.0.2)
       markdown-it-emoji: 2.0.2
@@ -699,20 +699,20 @@ packages:
       - supports-color
     dev: false
 
-  /@vuepress/shared@2.0.0-beta.68:
-    resolution: {integrity: sha512-vnlOOchZ7ZHeTQuFDKcTC1AKF5zl4+XKwZZdpX9cUkIl3rYbM4y80yoWvfG5SQnPjjoYG57g4Qz21Fa8u/CnCQ==}
+  /@vuepress/shared@2.0.0-rc.0:
+    resolution: {integrity: sha512-ikdSfjRv5LGM1iv4HHwF9P6gqTjaFCXKPK+hzlkHFHNZO1GLqk7/BPc4F51tAG1s8TcLhUZc+54LrfgS7PkXXA==}
     dependencies:
       '@mdit-vue/types': 1.0.0
       '@vue/shared': 3.3.8
     dev: false
 
-  /@vuepress/utils@2.0.0-beta.68:
-    resolution: {integrity: sha512-asRN+c8JCIVJWusP/V0FY8rgArGwuKXarEIKwFHcaR7x9IeB3Iww4p8raQHb1xYJADM7QFXx1gs2oM6Fx4XsUw==}
+  /@vuepress/utils@2.0.0-rc.0:
+    resolution: {integrity: sha512-Q1ay/woClDHcW0Qe91KsnHoupdNN0tp/vhjvVLuAYxlv/1Obii7hz9WFcajyyGEhmsYxdvG2sGmcxFA02tuKkw==}
     dependencies:
       '@types/debug': 4.1.12
       '@types/fs-extra': 11.0.4
       '@types/hash-sum': 1.0.2
-      '@vuepress/shared': 2.0.0-beta.68
+      '@vuepress/shared': 2.0.0-rc.0
       debug: 4.3.4
       fs-extra: 11.1.1
       globby: 14.0.0
