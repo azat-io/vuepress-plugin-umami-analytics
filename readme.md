@@ -35,6 +35,8 @@ export default {
 
 ## Options
 
+For more details on the configuration of the tracker, see the [official documentation](https://umami.is/docs/tracker-configuration).
+
 ### id
 
 - Type: `string`
@@ -54,6 +56,66 @@ export default {
 - Details:
 
   Link to Umami analytics script.
+
+### hostUrl
+
+- Type: `string`
+
+- Required: `false`
+
+- Default value: `null`
+
+- Details:
+
+  Send data to this host instead of the one where the script is located.
+
+### autoTrack
+
+- Type: `boolean`
+
+- Required: `false`
+
+- Default value: `true`
+
+- Details:
+
+  Set to false to disable tracking all pageviews and events.
+
+### doNotTrack
+
+- Type: `boolean`
+
+- Required: `false`
+
+- Default value: `false`
+
+- Details:
+
+  Whether to respect the browser's Do Not Track setting.
+
+### cache
+
+- Type: `boolean`
+
+- Required: `false`
+
+- Default value: `false`
+
+- Details:
+
+  Whether to cache some data to improve performance. Be careful, it will use session storage, you may have to inform your users.
+
+### domains
+
+- Type: `string[]`
+
+- Required: `false`
+
+- Default value: `null`
+
+- Details:
+
+  Only run the tracker on the domains specified. With a `null` value, tracker is active everywhere.
 
 ![Umami tracking code](https://user-images.githubusercontent.com/5698350/190417132-fcedc6cb-636d-4634-a682-837a6f56c797.png)
 
