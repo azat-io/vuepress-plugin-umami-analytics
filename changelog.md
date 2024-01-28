@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/azat-io/vuepress-plugin-umami-analytics/compare/v1.7.0...v1.8.0) (2024-01-28)
+
+
+### Features
+
+* enable tracker configuration ([8fcdd19](https://github.com/azat-io/vuepress-plugin-umami-analytics/commit/8fcdd193dd9e05e8e7bd9ee8ca0a0976113202e6))
+* update vuepress to v2.0.0-rc.2 ([49d657c](https://github.com/azat-io/vuepress-plugin-umami-analytics/commit/49d657ca6bba3b9febc7388349aeaee36b2eb7f7))
+
 ## [1.7.0](https://github.com/azat-io/vuepress-plugin-umami-analytics/compare/v1.6.0...v1.7.0) (2023-11-19)
 
 
