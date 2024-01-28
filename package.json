@@ -39,9 +39,9 @@
   },
   "types": "./dist/index.d.ts",
   "dependencies": {
-    "@vuepress/client": "2.0.0-rc.0",
-    "@vuepress/core": "2.0.0-rc.0",
-    "@vuepress/utils": "2.0.0-rc.0"
+    "@vuepress/client": "2.0.0-rc.2",
+    "@vuepress/core": "2.0.0-rc.2",
+    "@vuepress/utils": "2.0.0-rc.2"
   },
   "devDependencies": {
     "@azat-io/eslint-config-typescript": "^1.6.3",
