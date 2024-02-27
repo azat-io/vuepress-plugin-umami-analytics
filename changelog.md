@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.8.1](https://github.com/azat-io/vuepress-plugin-umami-analytics/compare/v1.8.0...v1.8.1) (2024-02-27)
+
+
+### Bug Fixes
+
+* handle potentially undefined variables ([a8e5101](https://github.com/azat-io/vuepress-plugin-umami-analytics/commit/a8e5101cc79e6fff0f3fdc69e59e64d2de9b5294))
+
 ## [1.8.0](https://github.com/azat-io/vuepress-plugin-umami-analytics/compare/v1.7.0...v1.8.0) (2024-01-28)
 
 
