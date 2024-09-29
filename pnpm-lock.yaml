@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@vuepress/client':
-        specifier: 2.0.0-rc.15
-        version: 2.0.0-rc.15(typescript@5.6.2)
+        specifier: 2.0.0-rc.16
+        version: 2.0.0-rc.16(typescript@5.6.2)
       '@vuepress/core':
-        specifier: 2.0.0-rc.15
-        version: 2.0.0-rc.15(typescript@5.6.2)
+        specifier: 2.0.0-rc.16
+        version: 2.0.0-rc.16(typescript@5.6.2)
       '@vuepress/utils':
-        specifier: 2.0.0-rc.15
-        version: 2.0.0-rc.15
+        specifier: 2.0.0-rc.16
+        version: 2.0.0-rc.16
     devDependencies:
       '@azat-io/eslint-config-typescript':
         specifier: ^1.10.0
@@ -1068,20 +1068,20 @@ packages:
   '@vue/shared@3.5.10':
     resolution: {integrity: sha512-VkkBhU97Ki+XJ0xvl4C9YJsIZ2uIlQ7HqPpZOS3m9VCvmROPaChZU6DexdMJqvz9tbgG+4EtFVrSuailUq5KGQ==}
 
-  '@vuepress/client@2.0.0-rc.15':
-    resolution: {integrity: sha512-73TWRIFKFqDRI+JHFjVWUJNfeExBYUxR7QuB5ZrtbntvN7Tu+Qr6wMwTU9bwDttRIaxUzoTBuTN5wfAiijokHg==}
+  '@vuepress/client@2.0.0-rc.16':
+    resolution: {integrity: sha512-5hjExjyXtgEIbB46khMYCyGfdkPx5FWoyj1qhLperEaU78oY7jul+k1sTpH4v0pbYDH2vY3Va2AmC08zQoze/g==}
 
-  '@vuepress/core@2.0.0-rc.15':
-    resolution: {integrity: sha512-CcVuANpF3k5QH6k27uShpQc+fdb35QdMbqNr4YEBleCVM2M5fHPeA8Did2OgzDzdr15G+AX2aP98yNVLgNR8cw==}
+  '@vuepress/core@2.0.0-rc.16':
+    resolution: {integrity: sha512-PTCGIjDE8gyH7fSAnqR1ityrpj4SpgTzEXQ9HEj3ilXUtPzPrKK/Lg1mZ/BDOQm0u76Ytz54HnqkcIgBO50VPg==}
 
-  '@vuepress/markdown@2.0.0-rc.15':
-    resolution: {integrity: sha512-q+yuwV+PzvFCs92Q/O/3HHRDY9CNYKJgc+fKbqE98P3qGBATnDtABUjc+NjtPvG4OdYt2fELTXOzyprE8omFIw==}
+  '@vuepress/markdown@2.0.0-rc.16':
+    resolution: {integrity: sha512-8LLrlqcI8jeHOM5FMQy5J3UHOSevleF01A5Vrh1s67wpDur0UQ8CzeHU6Hccf3VK/HE2DLPlo7LqbxHQMKg4eQ==}
 
-  '@vuepress/shared@2.0.0-rc.15':
-    resolution: {integrity: sha512-KLTTw0MWXrLw5XQ8h6y1iI11zJdlZcB8jXgAdOHFJ3a++InDYmUC0aCE0KbXyQTH46ODpMadJnz8/RewCftVXg==}
+  '@vuepress/shared@2.0.0-rc.16':
+    resolution: {integrity: sha512-O0QPP4F79pr7rfZy6dR/9T6Mw4uQni6WOTeR1IciAhEco4LTzyGtYcMlHQUwqgXfsI01ud62bDTKFS17k+IDuQ==}
 
-  '@vuepress/utils@2.0.0-rc.15':
-    resolution: {integrity: sha512-yHdMxPg8yxlAz/QL5G7U1IQ+jk34sCtn8H8X5j+A2U1x/j2lnr8LLDWzl84TyN78pdEA1cQL5g7Ks/zTzrIWhQ==}
+  '@vuepress/utils@2.0.0-rc.16':
+    resolution: {integrity: sha512-fRGS01bsmq7FYvhB7n0fF1w9gLa9X/sXGYMqJgNeVfvsjrqxBQLFShRl3xVQl7UAjiqfQ72om1L7OORYQEp1Mw==}
 
   JSONStream@1.3.5:
     resolution: {integrity: sha512-E+iruNOY8VV9s4JEbe1aNEm6MiszPRr/UfcHMz0TQh1BXSxHK+ASV1R6W4HpjBhSeS+54PIsAMCBmwD06LLsqQ==}
@@ -4591,27 +4591,27 @@ snapshots:
 
   '@vue/shared@3.5.10': {}
 
-  '@vuepress/client@2.0.0-rc.15(typescript@5.6.2)':
+  '@vuepress/client@2.0.0-rc.16(typescript@5.6.2)':
     dependencies:
       '@vue/devtools-api': 6.6.4
-      '@vuepress/shared': 2.0.0-rc.15
+      '@vuepress/shared': 2.0.0-rc.16
       vue: 3.5.10(typescript@5.6.2)
       vue-router: 4.4.5(vue@3.5.10(typescript@5.6.2))
     transitivePeerDependencies:
       - typescript
 
-  '@vuepress/core@2.0.0-rc.15(typescript@5.6.2)':
+  '@vuepress/core@2.0.0-rc.16(typescript@5.6.2)':
     dependencies:
-      '@vuepress/client': 2.0.0-rc.15(typescript@5.6.2)
-      '@vuepress/markdown': 2.0.0-rc.15
-      '@vuepress/shared': 2.0.0-rc.15
-      '@vuepress/utils': 2.0.0-rc.15
+      '@vuepress/client': 2.0.0-rc.16(typescript@5.6.2)
+      '@vuepress/markdown': 2.0.0-rc.16
+      '@vuepress/shared': 2.0.0-rc.16
+      '@vuepress/utils': 2.0.0-rc.16
       vue: 3.5.10(typescript@5.6.2)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  '@vuepress/markdown@2.0.0-rc.15':
+  '@vuepress/markdown@2.0.0-rc.16':
     dependencies:
       '@mdit-vue/plugin-component': 2.1.3
       '@mdit-vue/plugin-frontmatter': 2.1.3
@@ -4623,8 +4623,8 @@ snapshots:
       '@mdit-vue/types': 2.1.0
       '@types/markdown-it': 14.1.2
       '@types/markdown-it-emoji': 3.0.1
-      '@vuepress/shared': 2.0.0-rc.15
-      '@vuepress/utils': 2.0.0-rc.15
+      '@vuepress/shared': 2.0.0-rc.16
+      '@vuepress/utils': 2.0.0-rc.16
       markdown-it: 14.1.0
       markdown-it-anchor: 9.2.0(@types/markdown-it@14.1.2)(markdown-it@14.1.0)
       markdown-it-emoji: 3.0.0
@@ -4632,16 +4632,16 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@vuepress/shared@2.0.0-rc.15':
+  '@vuepress/shared@2.0.0-rc.16':
     dependencies:
       '@mdit-vue/types': 2.1.0
 
-  '@vuepress/utils@2.0.0-rc.15':
+  '@vuepress/utils@2.0.0-rc.16':
     dependencies:
       '@types/debug': 4.1.12
       '@types/fs-extra': 11.0.4
       '@types/hash-sum': 1.0.2
-      '@vuepress/shared': 2.0.0-rc.15
+      '@vuepress/shared': 2.0.0-rc.16
       debug: 4.3.7
       fs-extra: 11.2.0
       globby: 14.0.2
