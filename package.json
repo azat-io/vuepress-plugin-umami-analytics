@@ -1,8 +1,7 @@
 {
   "name": "vuepress-plugin-umami-analytics",
-  "description": "VuePress plugin for using Umami analytics",
   "version": "1.15.0",
-  "type": "module",
+  "description": "VuePress plugin for using Umami analytics",
   "keywords": [
     "analytics",
     "umami",
@@ -11,56 +10,45 @@
     "vuepress-plugin"
   ],
   "repository": "azat-io/vuepress-plugin-umami-analytics",
-  "author": "Azat S. <to@azat.io>",
   "license": "MIT",
-  "engines": {
-    "node": "^16.0.0 || >=18.0.0"
+  "author": "Azat S. <to@azat.io>",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
   },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "start": "tsc -b --watch",
-    "clean": "node -e \"fs.rmSync('./dist', { recursive: true, force: true })\"",
     "build": "tsc -b",
+    "clean": "node -e \"fs.rmSync('./dist', { recursive: true, force: true })\"",
     "prepare": "pnpm run build",
     "release": "pnpm release:check && pnpm release:version && pnpm release:publish",
     "release:changelog": "standard-version --infile changelog.md --same-file --skip.bump --skip.commit --skip.tag",
     "release:check": "pnpm test && pnpm build",
     "release:publish": "clean-publish",
     "release:version": "bumpp package.json --execute=\"pnpm release:changelog && git add changelog.md\" --commit \"build: publish v%s\" --tag --all",
-    "test:js": "eslint .",
-    "test:types": "tsc --noEmit --pretty",
-    "test": "pnpm run /^test:/"
+    "start": "tsc -b --watch",
+    "test": "pnpm run /^test:/",
+    "test:js": "eslint --flag unstable_ts_config .",
+    "test:types": "tsc --noEmit --pretty"
   },
-  "files": [
-    "dist"
-  ],
-  "main": "./dist/index.js",
-  "exports": {
-    ".": "./dist/index.js"
-  },
-  "types": "./dist/index.d.ts",
   "dependencies": {
     "@vuepress/client": "2.0.0-rc.17",
     "@vuepress/core": "2.0.0-rc.17",
     "@vuepress/utils": "2.0.0-rc.17"
   },
   "devDependencies": {
-    "@azat-io/eslint-config-typescript": "^1.10.0",
-    "@typescript-eslint/eslint-plugin": "^8.7.0",
-    "@typescript-eslint/parser": "^8.7.0",
-    "bumpp": "^9.6.1",
-    "clean-publish": "^5.0.0",
-    "eslint": "^9.11.1",
-    "eslint-plugin-import": "^2.30.0",
-    "eslint-plugin-n": "^17.10.3",
-    "eslint-plugin-node-import": "^1.0.4",
-    "eslint-plugin-perfectionist": "^3.7.0",
-    "eslint-plugin-prefer-arrow": "^1.2.3",
-    "eslint-plugin-prefer-let": "^4.0.0",
-    "eslint-plugin-promise": "^7.1.0",
-    "eslint-plugin-sonarjs": "^2.0.2",
-    "eslint-plugin-unicorn": "^55.0.0",
-    "eslint-plugin-vitest": "^0.5.4",
+    "@azat-io/eslint-config": "^2.4.0",
+    "bumpp": "^9.8.1",
+    "clean-publish": "^5.1.0",
+    "eslint": "^9.16.0",
     "standard-version": "^9.5.0",
-    "typescript": "^5.6.2"
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": "^16.0.0 || >=18.0.0"
   }
 }
