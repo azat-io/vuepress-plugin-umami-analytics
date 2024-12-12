@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@vuepress/client':
-        specifier: 2.0.0-rc.17
-        version: 2.0.0-rc.17(typescript@5.7.2)
+        specifier: 2.0.0-rc.19
+        version: 2.0.0-rc.19(typescript@5.7.2)
       '@vuepress/core':
-        specifier: 2.0.0-rc.17
-        version: 2.0.0-rc.17(typescript@5.7.2)
+        specifier: 2.0.0-rc.19
+        version: 2.0.0-rc.19(typescript@5.7.2)
       '@vuepress/utils':
-        specifier: 2.0.0-rc.17
-        version: 2.0.0-rc.17
+        specifier: 2.0.0-rc.19
+        version: 2.0.0-rc.19
     devDependencies:
       '@azat-io/eslint-config':
         specifier: ^2.4.0
@@ -917,20 +917,20 @@ packages:
   '@vue/shared@3.5.13':
     resolution: {integrity: sha512-/hnE/qP5ZoGpol0a5mDi45bOd7t3tjYJBjsgCsivow7D48cJeV5l05RD82lPqi7gRiphZM37rnhW1l6ZoCNNnQ==}
 
-  '@vuepress/client@2.0.0-rc.17':
-    resolution: {integrity: sha512-dnCU+spOgVw1V7vU/Gkj6e7bkfsGbezUuPAQMiWkBdrNTZ2BJctOHhhi+F8OBRR02hZ9JldlToA5vBoVsPKRpw==}
+  '@vuepress/client@2.0.0-rc.19':
+    resolution: {integrity: sha512-vUAU6n4qmtXqthxkb4LHq0D+VWSDenwBDf0jUs7RaBLuOVrbPtmH/hs4k1vLIlGdwC3Zs/G6tlB4UmuZiiwR8Q==}
 
-  '@vuepress/core@2.0.0-rc.17':
-    resolution: {integrity: sha512-Ux5zAqnSAAnaE4qFgIGkGRMWObyZaAeRk6Pj30tVRCC7zkYIRWXii7sUK6aehPyugQz02TKMvW5FlrJeA40ogw==}
+  '@vuepress/core@2.0.0-rc.19':
+    resolution: {integrity: sha512-rvmBPMIWS2dey/2QjxZoO0OcrUU46NE3mSLk3oU7JOP0cG7xvRxf6U1OXiwYLC3fPO4g6XbHiKe6gihkmL6VDA==}
 
-  '@vuepress/markdown@2.0.0-rc.17':
-    resolution: {integrity: sha512-eIwRostE3t3zsJzPjmOufVyyBpsaWQkZluk6o0i1e9WLW3EoinKrDZdzej0Jw8IQlq6nvOPD2JMFWyXwu8fv7w==}
+  '@vuepress/markdown@2.0.0-rc.19':
+    resolution: {integrity: sha512-6jgUXhpEK55PEEGtPhz7Hq/JqTbLU8n9w2D7emXiK2FYcbeKpjoRIbVRzmzB/dXeK3NzHChANu2IIqpOT6Ba1w==}
 
-  '@vuepress/shared@2.0.0-rc.17':
-    resolution: {integrity: sha512-meBWLJCCHqj+edHY+U2q64Q8AIqqlHzau6T0j95Q58WkWOQdgn8MUCx1/TXXh2mKVyTt4g6Kgci/3fK2Hi97HQ==}
+  '@vuepress/shared@2.0.0-rc.19':
+    resolution: {integrity: sha512-xaDeZxX0Qetc2Y6/lrzO6M/40i3LmMm7Fk85bOftBBOaNehZ24RdsmIHBJDDv+bTUv+DBF++1/mOtbt6DBRzEA==}
 
-  '@vuepress/utils@2.0.0-rc.17':
-    resolution: {integrity: sha512-5QFG8arU01QxJm+pzaNpNxfvSy3ttSjouwcefyr/6dO/cKbnjgmmaDOoy3UKnHYQtEDycybNOg4ebn2AHslEKw==}
+  '@vuepress/utils@2.0.0-rc.19':
+    resolution: {integrity: sha512-cgzk8/aJquZKgFMNTuqdjbU5NrCzrPmdTyhYBcmliL/6N/He1OTWn3PD9QWUGJNODb1sPRJpklZnCpU07waLmg==}
 
   JSONStream@1.3.5:
     resolution: {integrity: sha512-E+iruNOY8VV9s4JEbe1aNEm6MiszPRr/UfcHMz0TQh1BXSxHK+ASV1R6W4HpjBhSeS+54PIsAMCBmwD06LLsqQ==}
@@ -1355,6 +1355,15 @@ packages:
 
   debug@4.3.7:
     resolution: {integrity: sha512-Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+
+  debug@4.4.0:
+    resolution: {integrity: sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==}
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -4509,27 +4518,27 @@ snapshots:
 
   '@vue/shared@3.5.13': {}
 
-  '@vuepress/client@2.0.0-rc.17(typescript@5.7.2)':
+  '@vuepress/client@2.0.0-rc.19(typescript@5.7.2)':
     dependencies:
       '@vue/devtools-api': 7.6.7
-      '@vuepress/shared': 2.0.0-rc.17
+      '@vuepress/shared': 2.0.0-rc.19
       vue: 3.5.13(typescript@5.7.2)
       vue-router: 4.5.0(vue@3.5.13(typescript@5.7.2))
     transitivePeerDependencies:
       - typescript
 
-  '@vuepress/core@2.0.0-rc.17(typescript@5.7.2)':
+  '@vuepress/core@2.0.0-rc.19(typescript@5.7.2)':
     dependencies:
-      '@vuepress/client': 2.0.0-rc.17(typescript@5.7.2)
-      '@vuepress/markdown': 2.0.0-rc.17
-      '@vuepress/shared': 2.0.0-rc.17
-      '@vuepress/utils': 2.0.0-rc.17
+      '@vuepress/client': 2.0.0-rc.19(typescript@5.7.2)
+      '@vuepress/markdown': 2.0.0-rc.19
+      '@vuepress/shared': 2.0.0-rc.19
+      '@vuepress/utils': 2.0.0-rc.19
       vue: 3.5.13(typescript@5.7.2)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  '@vuepress/markdown@2.0.0-rc.17':
+  '@vuepress/markdown@2.0.0-rc.19':
     dependencies:
       '@mdit-vue/plugin-component': 2.1.3
       '@mdit-vue/plugin-frontmatter': 2.1.3
@@ -4541,8 +4550,8 @@ snapshots:
       '@mdit-vue/types': 2.1.0
       '@types/markdown-it': 14.1.2
       '@types/markdown-it-emoji': 3.0.1
-      '@vuepress/shared': 2.0.0-rc.17
-      '@vuepress/utils': 2.0.0-rc.17
+      '@vuepress/shared': 2.0.0-rc.19
+      '@vuepress/utils': 2.0.0-rc.19
       markdown-it: 14.1.0
       markdown-it-anchor: 9.2.0(@types/markdown-it@14.1.2)(markdown-it@14.1.0)
       markdown-it-emoji: 3.0.0
@@ -4550,17 +4559,17 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@vuepress/shared@2.0.0-rc.17':
+  '@vuepress/shared@2.0.0-rc.19':
     dependencies:
       '@mdit-vue/types': 2.1.0
 
-  '@vuepress/utils@2.0.0-rc.17':
+  '@vuepress/utils@2.0.0-rc.19':
     dependencies:
       '@types/debug': 4.1.12
       '@types/fs-extra': 11.0.4
       '@types/hash-sum': 1.0.2
-      '@vuepress/shared': 2.0.0-rc.17
-      debug: 4.3.7
+      '@vuepress/shared': 2.0.0-rc.19
+      debug: 4.4.0
       fs-extra: 11.2.0
       globby: 14.0.2
       hash-sum: 2.0.0
@@ -5081,6 +5090,10 @@ snapshots:
       ms: 2.1.3
 
   debug@4.3.7:
+    dependencies:
+      ms: 2.1.3
+
+  debug@4.4.0:
     dependencies:
       ms: 2.1.3
 
