@@ -41,8 +41,8 @@
     "@vuepress/utils": "2.0.0-rc.19"
   },
   "devDependencies": {
-    "@azat-io/eslint-config": "^2.4.0",
-    "bumpp": "^9.8.1",
+    "@azat-io/eslint-config": "^2.5.0",
+    "bumpp": "^9.9.1",
     "clean-publish": "^5.1.0",
     "eslint": "^9.16.0",
     "standard-version": "^9.5.0",
