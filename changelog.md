@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.16.0](https://github.com/azat-io/vuepress-plugin-umami-analytics/compare/v1.15.0...v1.16.0) (2024-12-15)
+
+
+### Features
+
+* update vuepress to v2.0.0-rc.19 ([f069867](https://github.com/azat-io/vuepress-plugin-umami-analytics/commit/f069867e35d6760a4406b650012303596e04cd49))
+
 ## [1.15.0](https://github.com/azat-io/vuepress-plugin-umami-analytics/compare/v1.14.0...v1.15.0) (2024-10-02)
 
 
