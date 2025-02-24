@@ -35,9 +35,9 @@
     "test:types": "tsc --noEmit --pretty"
   },
   "dependencies": {
-    "@vuepress/client": "2.0.0-rc.19",
-    "@vuepress/core": "2.0.0-rc.19",
-    "@vuepress/utils": "2.0.0-rc.19"
+    "@vuepress/client": "2.0.0-rc.20",
+    "@vuepress/core": "2.0.0-rc.20",
+    "@vuepress/utils": "2.0.0-rc.20"
   },
   "devDependencies": {
     "@azat-io/eslint-config": "^2.15.0",
