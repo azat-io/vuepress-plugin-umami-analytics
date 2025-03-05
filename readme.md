@@ -2,8 +2,9 @@
 
 <img src="https://avatars.githubusercontent.com/u/48539483?s=100" align="right" alt="VuePress" />
 
-![Version](https://img.shields.io/npm/v/vuepress-plugin-umami-analytics.svg)
-![Downloads](https://img.shields.io/npm/dm/vuepress-plugin-umami-analytics.svg)
+[![Version](https://img.shields.io/npm/v/vuepress-plugin-umami-analytics.svg?color=4fb17b&labelColor=2a2f44)](https://npmjs.com/package/vuepress-plugin-umami-analytics)
+[![Monthly Download](https://img.shields.io/npm/dm/vuepress-plugin-umami-analytics.svg?color=4fb17b&labelColor=2a2f44)](https://npmjs.com/package/vuepress-plugin-umami-analytics)
+[![GitHub License](https://img.shields.io/badge/license-MIT-4fb17b.svg?color=4fb17b&labelColor=2a2f44)](https://github.com/azat-io/eslint-plugin-de-morgan/blob/main/license.md)
 
 VuePress v2 plugin for injecting [Umami](https://umami.is) analytics script into your app code. Umami is a self-hosted, privacy-friendly alternative to Google Analytics.
 
