@@ -31,7 +31,7 @@
     "release:version": "bumpp package.json --execute=\"pnpm release:changelog && git add changelog.md\" --commit \"build: publish v%s\" --tag --all",
     "start": "tsc -b --watch",
     "test": "pnpm run /^test:/",
-    "test:js": "eslint --flag unstable_ts_config .",
+    "test:js": "eslint .",
     "test:types": "tsc --noEmit --pretty"
   },
   "dependencies": {
@@ -40,12 +40,12 @@
     "@vuepress/utils": "2.0.0-rc.20"
   },
   "devDependencies": {
-    "@azat-io/eslint-config": "^2.15.0",
-    "bumpp": "^10.0.3",
+    "@azat-io/eslint-config": "^2.25.0",
+    "bumpp": "^10.1.0",
     "clean-publish": "^5.1.0",
-    "eslint": "^9.21.0",
+    "eslint": "^9.24.0",
     "standard-version": "^9.5.0",
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.3"
   },
   "engines": {
     "node": "^16.0.0 || >=18.0.0"
