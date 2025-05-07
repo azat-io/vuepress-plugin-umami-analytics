@@ -32,6 +32,7 @@
     "start": "tsc -b --watch",
     "test": "pnpm run /^test:/",
     "test:js": "eslint .",
+    "test:packages": "pnpm dedupe --check",
     "test:types": "tsc --noEmit --pretty"
   },
   "dependencies": {
