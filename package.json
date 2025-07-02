@@ -41,10 +41,10 @@
     "@vuepress/utils": "2.0.0-rc.23"
   },
   "devDependencies": {
-    "@azat-io/eslint-config": "^2.25.0",
-    "bumpp": "^10.1.0",
-    "clean-publish": "^5.1.0",
-    "eslint": "^9.24.0",
+    "@azat-io/eslint-config": "^2.37.0",
+    "bumpp": "^10.2.0",
+    "clean-publish": "^5.2.2",
+    "eslint": "^9.30.1",
     "standard-version": "^9.5.0",
     "typescript": "^5.8.3"
   },
