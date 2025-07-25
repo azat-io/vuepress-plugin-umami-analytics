@@ -42,6 +42,8 @@
   },
   "devDependencies": {
     "@azat-io/eslint-config": "^2.37.0",
+    "@azat-io/typescript-config": "^1.1.1",
+    "@types/node": "^24.1.0",
     "bumpp": "^10.2.0",
     "clean-publish": "^5.2.2",
     "eslint": "^9.30.1",
