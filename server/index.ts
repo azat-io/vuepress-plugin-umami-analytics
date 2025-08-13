@@ -14,17 +14,16 @@ interface UmamiAnalyticsPluginOptions {
 
 let __dirname = getDirname(import.meta.url)
 
-export let umamiAnalyticsPlugin =
-  ({
-    doNotTrack,
-    autoTrack,
-    hostUrl,
-    domains,
-    cache,
-    src,
-    id,
-  }: UmamiAnalyticsPluginOptions): Plugin =>
-  app => {
+export function umamiAnalyticsPlugin({
+  doNotTrack,
+  autoTrack,
+  hostUrl,
+  domains,
+  cache,
+  src,
+  id,
+}: UmamiAnalyticsPluginOptions): Plugin {
+  return function (app) {
     let plugin = {
       name: 'vuepress-plugin-umami-analytics',
     }
@@ -47,3 +46,4 @@ export let umamiAnalyticsPlugin =
       clientConfigFile: path.resolve(__dirname, '../client/index.js'),
     }
   }
+}
