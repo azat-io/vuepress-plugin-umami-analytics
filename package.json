@@ -31,7 +31,7 @@
     "release:version": "bumpp package.json --execute=\"pnpm release:changelog && git add changelog.md\" --commit \"build: publish v%s\" --tag --all",
     "start": "tsc -b --watch",
     "test": "pnpm run /^test:/",
-    "test:js": "eslint .",
+    "test:js": "eslint --concurrency auto .",
     "test:packages": "pnpm dedupe --check",
     "test:types": "tsc --noEmit --pretty"
   },
@@ -41,12 +41,12 @@
     "@vuepress/utils": "2.0.0-rc.24"
   },
   "devDependencies": {
-    "@azat-io/eslint-config": "^2.44.0",
+    "@azat-io/eslint-config": "^2.46.0",
     "@azat-io/typescript-config": "^1.1.1",
-    "@types/node": "^24.2.1",
+    "@types/node": "^24.3.0",
     "bumpp": "^10.2.3",
     "clean-publish": "^5.2.2",
-    "eslint": "^9.33.0",
+    "eslint": "^9.34.0",
     "standard-version": "^9.5.0",
     "typescript": "^5.9.2"
   },
