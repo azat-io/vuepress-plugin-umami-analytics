@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-umami-analytics",
-  "version": "1.21.0",
+  "version": "1.22.0",
   "description": "VuePress plugin for using Umami analytics",
   "keywords": [
     "analytics",
