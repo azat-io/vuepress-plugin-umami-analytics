@@ -41,14 +41,14 @@
     "@vuepress/utils": "2.0.0-rc.25"
   },
   "devDependencies": {
-    "@azat-io/eslint-config": "^2.46.0",
+    "@azat-io/eslint-config": "^2.52.0",
     "@azat-io/typescript-config": "^1.1.1",
-    "@types/node": "^24.3.0",
-    "bumpp": "^10.2.3",
+    "@types/node": "^24.8.1",
+    "bumpp": "^10.3.1",
     "clean-publish": "^5.2.2",
-    "eslint": "^9.34.0",
+    "eslint": "^9.38.0",
     "standard-version": "^9.5.0",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   },
   "engines": {
     "node": "^16.0.0 || >=18.0.0"
