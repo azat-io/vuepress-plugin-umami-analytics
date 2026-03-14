@@ -9,6 +9,7 @@
     "vuepress2",
     "vuepress-plugin"
   ],
+  "homepage": "https://github.com/azat-io/vuepress-plugin-umami-analytics",
   "repository": "azat-io/vuepress-plugin-umami-analytics",
   "license": "MIT",
   "author": "Azat S. <to@azat.io>",
@@ -41,12 +42,12 @@
     "@vuepress/utils": "2.0.0-rc.26"
   },
   "devDependencies": {
-    "@azat-io/eslint-config": "^2.52.0",
+    "@azat-io/eslint-config": "^2.72.0",
     "@azat-io/typescript-config": "^1.1.1",
-    "@types/node": "^24.8.1",
-    "bumpp": "^10.3.1",
-    "clean-publish": "^5.2.2",
-    "eslint": "^9.38.0",
+    "@types/node": "^25.5.0",
+    "bumpp": "^10.4.1",
+    "clean-publish": "^6.0.3",
+    "eslint": "^10.0.3",
     "standard-version": "^9.5.0",
     "typescript": "^5.9.3"
   },
