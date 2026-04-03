@@ -37,9 +37,9 @@
     "test:types": "tsc --noEmit --pretty"
   },
   "dependencies": {
-    "@vuepress/client": "2.0.0-rc.27",
-    "@vuepress/core": "2.0.0-rc.27",
-    "@vuepress/utils": "2.0.0-rc.27"
+    "@vuepress/client": "2.0.0-rc.28",
+    "@vuepress/core": "2.0.0-rc.28",
+    "@vuepress/utils": "2.0.0-rc.28"
   },
   "devDependencies": {
     "@azat-io/eslint-config": "^2.72.0",
