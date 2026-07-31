@@ -23,13 +23,13 @@ export default defineClientConfig({
       scriptTag.dataset['hostUrl'] = __UMAMI_ANALYTICS_HOST_URL__
     }
     if (__UMAMI_ANALYTICS_AUTO_TRACK__) {
-      scriptTag.dataset['autoTrack'] = `${__UMAMI_ANALYTICS_AUTO_TRACK__}`
+      scriptTag.dataset['autoTrack'] = String(__UMAMI_ANALYTICS_AUTO_TRACK__)
     }
     if (__UMAMI_ANALYTICS_DO_NOT_TRACK__) {
-      scriptTag.dataset['doNotTrack'] = `${__UMAMI_ANALYTICS_DO_NOT_TRACK__}`
+      scriptTag.dataset['doNotTrack'] = String(__UMAMI_ANALYTICS_DO_NOT_TRACK__)
     }
     if (__UMAMI_ANALYTICS_CACHE__) {
-      scriptTag.dataset['cache'] = `${__UMAMI_ANALYTICS_CACHE__}`
+      scriptTag.dataset['cache'] = String(__UMAMI_ANALYTICS_CACHE__)
     }
     if (__UMAMI_ANALYTICS_DOMAINS__) {
       scriptTag.dataset['domains'] = __UMAMI_ANALYTICS_DOMAINS__.join(',')
